@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090c" />
+      <stop offset="100%" stop-color="#12121a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#6d28d9" />
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#09090c" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+  
+  <!-- Subtle Grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="630" />
+    <line x1="300" y1="0" x2="300" y2="630" />
+    <line x1="500" y1="0" x2="500" y2="630" />
+    <line x1="700" y1="0" x2="700" y2="630" />
+    <line x1="900" y1="0" x2="900" y2="630" />
+    <line x1="1100" y1="0" x2="1100" y2="630" />
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="250" x2="1200" y2="250" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="550" x2="1200" y2="550" />
+  </g>
+
+  <!-- Content Card -->
+  <rect x="90" y="90" width="1020" height="450" rx="24" fill="#111116" fill-opacity="0.75" stroke="#26262e" stroke-width="1.5" />
+  
+  <!-- Badge -->
+  <rect x="140" y="140" width="220" height="38" rx="19" fill="#1f1833" stroke="#8b5cf6" stroke-opacity="0.4" stroke-width="1" />
+  <circle cx="160" cy="159" r="5" fill="#8b5cf6" />
+  <text x="175" y="164" fill="#c4b5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" letter-spacing="1">STUDENT DEVELOPER</text>
+
+  <!-- Main Headline -->
+  <text x="140" y="240" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="56" font-weight="800" letter-spacing="-1">Abnish Kumar</text>
+  <text x="140" y="300" fill="#8b5cf6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="600">Student Developer | Creative Builder | Future Engineer</text>
+
+  <!-- Tagline -->
+  <text x="140" y="360" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="400">B.Tech student and full-stack (MERN) developer building real-world web platforms.</text>
+
+  <!-- Project Badge -->
+  <rect x="140" y="420" width="480" height="54" rx="12" fill="#171720" stroke="#33333d" stroke-width="1" />
+  <text x="165" y="454" fill="#e4e4e7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500">Featured System: <tspan fill="#a78bfa" font-weight="700">VidSphere</tspan> Sovereign Video Platform</text>
+
+  <!-- Tech Accent Pill -->
+  <rect x="910" y="140" width="150" height="42" rx="10" fill="#8b5cf6" fill-opacity="0.15" stroke="#8b5cf6" stroke-width="1" />
+  <text x="940" y="166" fill="#a78bfa" font-family="monospace" font-size="15" font-weight="700">MERN + Cloud</text>
+</svg>
+

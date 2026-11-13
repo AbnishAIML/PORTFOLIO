@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Primary Meta Tags -->
+    <title>Abnish Kumar | Full-Stack Developer &amp; B.Tech CSE (AI/ML) | Portfolio</title>
+    <meta name="title" content="Abnish Kumar | Full-Stack Developer & B.Tech CSE (AI/ML) | Portfolio" />
+    <meta
+      name="description"
+      content="Abnish Kumar — 2nd Year B.Tech CSE (AI/ML) student at I.T.S Engineering College and full-stack MERN developer. Builder of VidSphere, practicing DSA, and engineering clean real-world web systems."
+    />
+    <meta
+      name="keywords"
+      content="Abnish Kumar, Full Stack Developer, MERN Stack, React, Node.js, Express.js, MongoDB, Tailwind CSS, Redux, WebSockets, Cloudinary, JWT, Python, C++, VidSphere, Greater Noida"
+    />
+    <meta name="author" content="Abnish Kumar" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://abnishaiml.github.io/" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://abnishaiml.github.io/" />
+    <meta property="og:title" content="Abnish Kumar | Full-Stack Developer & Maker" />
+    <meta
+      property="og:description"
+      content="2nd Year B.Tech CSE (AI/ML) student and full-stack MERN developer building real-world platforms like VidSphere."
+    />
+    <meta property="og:image" content="https://abnishaiml.github.io/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://abnishaiml.github.io/" />
+    <meta name="twitter:title" content="Abnish Kumar | Full-Stack Developer & Maker" />
+    <meta
+      name="twitter:description"
+      content="2nd Year B.Tech CSE (AI/ML) student and full-stack MERN developer building real-world platforms like VidSphere."
+    />
+    <meta name="twitter:image" content="https://abnishaiml.github.io/og-image.svg" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#08090d" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fafaf8" media="(prefers-color-scheme: light)" />
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Abnish Kumar",
+        "jobTitle": "Full-Stack Developer & B.Tech CSE (AI/ML) Student",
+        "description": "B.Tech CSE (AI/ML) student and full-stack MERN developer building real-world web platforms.",
+        "url": "https://abnishaiml.github.io/",
+        "sameAs": [
+          "https://github.com/AbnishAIML",
+          "https://www.linkedin.com/in/ABNISHAIML",
+          "https://leetcode.com/u/ABNISHAIML"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Knowledge Park III",
+          "addressLocality": "Greater Noida",
+          "addressRegion": "Uttar Pradesh",
+          "addressCountry": "India"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "I.T.S Engineering College",
+          "location": "Greater Noida, India"
+        },
+        "email": "mailto:sanyashiyuvraj@gmail.com"
+      }
+    </script>
+
+    <!-- FOUC-free Theme Init -->
+    <script>
+      (function () {
+        try {
+          var storedTheme = localStorage.getItem('abnish_portfolio_theme');
+          var systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var isDark = storedTheme === 'dark' || (!storedTheme && systemPrefersDark) || (!storedTheme && !window.matchMedia);
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text font-sans antialiased selection:bg-accent-500/20 selection:text-accent-400 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

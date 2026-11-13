@@ -15,7 +15,7 @@
 
 <br />
 
-[**🌐 Live Preview**](https://abnishaiml.github.io) · [**📄 Resume**](public/ABNISH%20KUMAR%20UPDATED%20RESUME.pdf) · [**💻 GitHub**](https://github.com/AbnishAIML) · [**🔗 LinkedIn**](https://www.linkedin.com/in/ABNISHAIML) · [**🧩 LeetCode**](https://leetcode.com/u/ABNISHAIML)
+[**🌐 Live Preview**](https://abnishportfolio.netlify.app/) · [**📄 Resume**](public/ABNISH%20KUMAR%20UPDATED%20RESUME.pdf) · [**💻 GitHub**](https://github.com/AbnishAIML) · [**🔗 LinkedIn**](https://www.linkedin.com/in/ABNISHAIML) · [**🧩 LeetCode**](https://leetcode.com/u/ABNISHAIML)
 
 <br />
 
